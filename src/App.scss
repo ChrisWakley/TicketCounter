@@ -1,0 +1,9 @@
+@use "./assets/sass/variables.scss" as *;
+
+.App {
+    background: linear-gradient(to right, $color-primary, $color-secondary);
+    height: 100vh;
+    width: 100%;
+    border: 5px solid $color-black;
+
+}
