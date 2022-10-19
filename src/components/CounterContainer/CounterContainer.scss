@@ -1,0 +1,18 @@
+@use "/src/assets/sass/variables" as *;
+
+.employee__cards {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(10px, 1fr));
+    grid-template-rows: repeat(2, minmax(10px, 1fr));
+    column-gap: 3rem;
+    row-gap: 3rem;
+    .employee__tile {
+        border: 3px solid black;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        .employee__text {
+            margin: 4rem 0rem;
+        }
+    }
+}

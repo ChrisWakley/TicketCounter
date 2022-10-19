@@ -5,5 +5,10 @@
     height: 100vh;
     width: 100%;
     border: 5px solid $color-black;
-
-}
+    .Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+    }
+};
