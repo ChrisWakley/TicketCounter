@@ -11,8 +11,16 @@
         border-radius: 10px;
         display: block;
         text-align: center;
+        .employee__image {
+            height: 75%;
+            width: 60%;
+        }
         .employee__text {
+            position: absolute;
             margin: 4rem 0rem;
+        }
+        .employee__role {
+            position: absolute;
         }
     }
 }

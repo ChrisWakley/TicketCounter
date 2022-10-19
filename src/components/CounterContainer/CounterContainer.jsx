@@ -9,6 +9,7 @@ const CounterContainer = (props) => {
         
         <div className="employee__tile"
         key={name + (index + 1)}>
+            <img src={employee.image} alt="" className="employee__image" />
             <h2 className="employee__text employee__text--name">{employee.name}</h2>
             <h2 className="employee__text employee__text--role">{employee.role}</h2>
             <Counter />

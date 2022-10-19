@@ -1,7 +1,9 @@
+@use "/src/assets/sass/_variables.scss" as *;
+
 .counter__container {
     padding-bottom: 3rem;
     .counter__heading {
-
+        font-family: "Cabello_Sans";
     }
     .counter__body {
         display: flex;
