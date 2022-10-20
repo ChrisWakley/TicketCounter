@@ -10,17 +10,23 @@
         border: 3px solid black;
         border-radius: 10px;
         display: block;
-        text-align: center;
+        height: 46.5vh;
+        width: 17vw;
         .employee__image {
-            height: 75%;
-            width: 60%;
+            position: absolute;
+            height: 46.5vh;
+            width: 16vw;
+            opacity: 75%;
         }
         .employee__text {
-            position: absolute;
+            color: $color-secondary;
+            position: relative;
+            z-index: 1;
             margin: 4rem 0rem;
-        }
-        .employee__role {
-            position: absolute;
+            text-align: center;
         }
     }
 }
+
+//z-index
+//position-attribute

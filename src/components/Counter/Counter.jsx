@@ -3,12 +3,15 @@ import "./Counter.scss";
 
 const TicketCounter = () => {
 
-    const [counter, setCounter] = useState(0)
+    let [counter, setCounter] = useState(0)
     const increaseCounter = () => {
         setCounter(counter + 1);
     };
     const decreaseCounter = () => {
-        setCounter(counter - 1);
+        if(counter <= 0) {
+            counter = 0
+        } else {;
+        setCounter(counter - 1)};
     };
 
     return (

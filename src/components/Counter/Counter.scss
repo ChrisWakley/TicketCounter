@@ -1,12 +1,21 @@
 @use "/src/assets/sass/_variables.scss" as *;
 
 .counter__container {
-    padding-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+    padding: 3rem 0rem;
     .counter__heading {
+        color: $color-primary;
+        text-align: center;
         font-family: "Cabello_Sans";
     }
     .counter__body {
         display: flex;
         justify-content: space-evenly;
+        .counter__text {
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+        }
     }
 }

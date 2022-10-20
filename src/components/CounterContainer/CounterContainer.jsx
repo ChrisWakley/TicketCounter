@@ -3,8 +3,7 @@ import "./CounterContainer.scss";
 import Counter from "../Counter/Counter.jsx";
 
 const CounterContainer = (props) => {
-    const { name, role } = props;
-    console.log(name, role);
+    const { name } = props;
     const employeeListJSX = employees.map((employee, index) => (
         
         <div className="employee__tile"
