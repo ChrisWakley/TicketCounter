@@ -8,10 +8,31 @@
         color: $color-primary;
         text-align: center;
         font-family: "Cabello_Sans";
+        font-size: 3rem;
     }
     .counter__body {
         display: flex;
         justify-content: space-evenly;
+        .counter-container__minusOne {
+            display: flex;
+            flex-direction: column;
+            .counter__image {
+                &--red {
+                height: 3rem;
+                width: 3rem;
+                }
+            }
+        }
+        .counter-container__plusOne {
+            display: flex;
+            flex-direction: column;
+            .counter__image {
+                &--green {
+                height: 3rem;
+                width: 3rem;
+                }
+            }
+        }
         .counter__text {
             color: white;
             font-size: 2rem;

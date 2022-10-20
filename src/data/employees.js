@@ -28,7 +28,7 @@ const employees = [
     },
     {
         name: "Cid Highwind",
-        role: "Astronaut",
+        role: "Pilot",
         image: images[4],
     },
     {

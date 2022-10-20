@@ -10,4 +10,6 @@ export const images = [
     require("./VincentValentine.png"),
     require("./YuffieKisaragi.png"),
     require("./ZackFair.png"),
+    require("./RedMateria.png"),
+    require("./GreenMateria.png"),
 ];

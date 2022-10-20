@@ -7,16 +7,17 @@
     column-gap: 3rem;
     row-gap: 3rem;
     .employee__tile {
-        border: 3px solid black;
+        opacity: 50%;
+        border: 3px solid lightgrey;
         border-radius: 10px;
         display: block;
         height: 46.5vh;
         width: 17vw;
         .employee__image {
+            opacity: 75%;
             position: absolute;
             height: 46.5vh;
             width: 16vw;
-            opacity: 75%;
         }
         .employee__text {
             color: $color-secondary;
@@ -28,5 +29,9 @@
     }
 }
 
-//z-index
-//position-attribute
+.employee__tile:hover {
+    opacity: 100%;
+    .employee__image {
+        opacity: 75%;
+    }
+}
