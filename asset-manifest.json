@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8dfa7a0d.css",
-    "main.js": "/static/js/main.08c22126.js",
+    "main.css": "/static/css/main.0199f90b.css",
+    "main.js": "/static/js/main.d1427f09.js",
     "static/js/787.c860ec2f.chunk.js": "/static/js/787.c860ec2f.chunk.js",
     "static/media/AerithGainsborough.png": "/static/media/AerithGainsborough.4b7fa688b9fde2aebdfc.png",
     "static/media/BarretWallace.png": "/static/media/BarretWallace.f7e2d5569d1bfd4f0abf.png",
@@ -15,14 +15,16 @@
     "static/media/MidgarBackground.jpg": "/static/media/MidgarBackground.599d96e762011bc0e6c0.jpg",
     "static/media/Nanaki.png": "/static/media/Nanaki.2365ac0474956e6bb448.png",
     "static/media/Cabello_Sans.ttf": "/static/media/Cabello_Sans.946d4c16ec7e670fe8fc.ttf",
+    "static/media/RedMateria.png": "/static/media/RedMateria.50e80f5027aa07dfecf7.png",
+    "static/media/GreenMateria.png": "/static/media/GreenMateria.a2ca79d5cec791c5a33a.png",
     "static/media/CaitSith.png": "/static/media/CaitSith.e444e8da059ada1bbf82.png",
     "index.html": "/index.html",
-    "main.8dfa7a0d.css.map": "/static/css/main.8dfa7a0d.css.map",
-    "main.08c22126.js.map": "/static/js/main.08c22126.js.map",
+    "main.0199f90b.css.map": "/static/css/main.0199f90b.css.map",
+    "main.d1427f09.js.map": "/static/js/main.d1427f09.js.map",
     "787.c860ec2f.chunk.js.map": "/static/js/787.c860ec2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dfa7a0d.css",
-    "static/js/main.08c22126.js"
+    "static/css/main.0199f90b.css",
+    "static/js/main.d1427f09.js"
   ]
 }
