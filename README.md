@@ -1,3 +1,18 @@
+#ticketCounter
+
+This Project was part of a technical test as part of my Nology course.
+
+The aim was to create a basic ticketcounter that launched as a web app. I achieved everything I set out to do and hit all the requirements.
+
+I had a decent amount of time remaining after creating the basic ticketcounter and decided to put it into styling, I used Final Fantasy VII as my inspiration for
+styling as I had recently played the remake and it stuck with me. I'm very pleased with the overall outcome for this project.
+
+I would, in future, like to add media queries for page size responsiveness, currently it's written to display on a pc monitor. It displays nicely on a pc monitor
+but doesn't fit smaller screens at all.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
